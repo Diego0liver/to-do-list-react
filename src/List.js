@@ -6,11 +6,11 @@ const List = (props) => {
   return (<ul>
        {props.item.map
        (items=><ListItem key={items.id}
-       items={items}
-       db={props.db} 
+       items={items} 
        onDone={props.onDone} 
        delet={props.delet}></ListItem>)} 
-    </ul>)}
+    </ul>)
+    }
   
 
 export default List

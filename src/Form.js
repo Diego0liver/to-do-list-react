@@ -16,7 +16,7 @@ const Form = (props) => {
   return (
     <form>
       <input type="text" onChange={pegaValor} value={text}></input>
-      <button onClick={addItem} >Adicionar</button>
+      <button className='btnadd' onClick={addItem} >Adicionar</button>
     </form>  
   )
 }
